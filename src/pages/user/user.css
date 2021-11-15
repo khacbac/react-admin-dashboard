@@ -1,0 +1,142 @@
+.user {
+  flex: 4;
+  padding: 20px;
+}
+
+.userHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.userCreateUserBtn {
+  border: none;
+  background-color: rgb(16, 109, 16);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.userInfo {
+  display: flex;
+  margin-top: 20px;
+}
+
+.userInfoShow {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 2px 14px -1px rgba(0, 0, 0, 0.38);
+  box-shadow: 1px 2px 14px -1px rgba(0, 0, 0, 0.38);
+}
+
+.userInfoUpdate {
+  flex: 2;
+  padding: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 2px 14px -1px rgba(0, 0, 0, 0.38);
+  box-shadow: 1px 2px 14px -1px rgba(0, 0, 0, 0.38);
+}
+
+.userInfoBasic {
+  display: flex;
+  align-items: center;
+}
+
+.userInfoNameContainer {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.userInfoName {
+  font-weight: 600;
+}
+
+.userInfoTitle {
+  color: rgb(122, 116, 116);
+}
+
+.userInfoDetail {
+  margin-top: 20px;
+}
+
+.userInfoDetailTitle {
+  color: rgb(158, 155, 155);
+  font-weight: 500;
+}
+
+.userInfoDetailInfo {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.userInfoDetailIcon {
+  font-size: 16px !important;
+  margin-right: 5px;
+}
+
+.userInfoUpdateTitle {
+  font-size: 20px;
+}
+
+.userInfoUpdateContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.userInfoUpdateInputWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.userInfoUpdateContentLabel {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.userInfoUpdateContentInput {
+  height: 30px;
+  width: 250px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.userInfoUpdateContentRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.userInfoUpdateAvatarWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.userInfoUpdateAvatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.userInfoUpdateIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.userInfoUpdateFile {
+  display: none;
+}
+
+.userInfoUpdateBtn {
+  border: none;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}

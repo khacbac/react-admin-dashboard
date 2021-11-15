@@ -1,0 +1,31 @@
+.users {
+  flex: 4;
+}
+
+.userUser {
+  display: flex;
+  align-items: center;
+}
+
+.userAvatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.userEdit {
+  color: white;
+  background-color: rgb(49, 218, 49);
+  padding: 4px 10px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.userDelete {
+  color: red;
+  cursor: pointer;
+}
