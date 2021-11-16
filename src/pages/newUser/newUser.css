@@ -1,0 +1,54 @@
+.newUser {
+  flex: 4;
+  padding: 20px;
+}
+
+.newUserContent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newUserItem {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.newUserLabel {
+  margin-bottom: 10px;
+}
+
+.newUserItem > input {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 7px;
+}
+
+.newUserItem > select {
+  padding: 7px;
+  border: 1px solid gray;
+  border-radius: 7px;
+}
+
+.userGender {
+  display: flex;
+  align-items: center;
+}
+
+.userGender > label {
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+.userCreateBtn {
+  background-color: darkblue;
+  border: none;
+  color: white;
+  width: 220px;
+  padding: 5px 0;
+  border-radius: 7px;
+  margin-top: 20px;
+  cursor: pointer;
+}

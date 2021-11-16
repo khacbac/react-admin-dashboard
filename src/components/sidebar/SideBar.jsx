@@ -10,6 +10,7 @@ import {
   MessageOutlined,
   ReportOffOutlined,
 } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 import "./sideBar.css";
 
 export default function SideBar() {
@@ -19,10 +20,12 @@ export default function SideBar() {
         <div className="sideBarMenu">
           <h3 className="sideBarTitle">Dashboard</h3>
           <ul className="sideBarList">
-            <li className="sideBarListItem active">
-              <LineStyle className="sideBarIcon" />
-              Home
-            </li>
+            <Link to="/" className="link">
+              <li className="sideBarListItem active">
+                <LineStyle className="sideBarIcon" />
+                Home
+              </li>
+            </Link>
             <li className="sideBarListItem">
               <TrendingUp className="sideBarIcon" />
               Analytics
@@ -36,10 +39,12 @@ export default function SideBar() {
         <div className="sideBarMenu">
           <h3 className="sideBarTitle">Quick Menu</h3>
           <ul className="sideBarList">
-            <li className="sideBarListItem">
-              <PersonOutline className="sideBarIcon" />
-              Users
-            </li>
+            <Link to="/users" className="link">
+              <li className="sideBarListItem">
+                <PersonOutline className="sideBarIcon" />
+                Users
+              </li>
+            </Link>
             <li className="sideBarListItem">
               <Store className="sideBarIcon" />
               Products

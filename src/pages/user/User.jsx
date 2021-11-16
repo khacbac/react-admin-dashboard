@@ -8,6 +8,7 @@ import {
   PhoneAndroid,
   Publish,
 } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 import "./user.css";
 
 export default function User() {
@@ -15,7 +16,9 @@ export default function User() {
     <div className="user">
       <div className="userHeader">
         <h2 className="userEditUserTitle">Edit User</h2>
-        <button className="userCreateUserBtn">Create</button>
+        <Link to="/user/new">
+          <button className="userCreateUserBtn">Create</button>
+        </Link>
       </div>
       <div className="userInfo">
         <div className="userInfoShow">
